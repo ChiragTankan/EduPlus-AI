@@ -37,7 +37,7 @@ The modern economy rewards those who can bridge the gap between abstract concept
 > [ Fundamental Logic ] --> [ Architectural Patterns ] --> [ Frameworks/Tools ]
 > *Mastering the base (Logic) makes the top (Tools) easy to swap.*
 
-### The EduPulse AI Approach
+### The EDU Plus Approach
 We don't just teach you syntax. We build your **Architectural Intuition**. Our curriculum is built on three pillars:
 1. **First Principles Thinking**: We explain the *why* so you can adapt to any *how*.
 2. **Production-Ready Patterns**: Every concept is paired with a pattern used by elite engineering teams at companies like Vercel and Stripe.

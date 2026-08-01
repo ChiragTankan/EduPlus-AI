@@ -1,6 +1,6 @@
-# EduPulse AI 🎓
+# EDU Plus 🎓
 
-> **EduPulse AI** is a next-generation AI-powered learning and academic mastery platform designed for modern students, educators, and lifelong learners.
+> **EDU Plus** is a next-generation AI-powered learning and academic mastery platform designed for modern students, educators, and lifelong learners.
 
 ---
 

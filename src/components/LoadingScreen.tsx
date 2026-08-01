@@ -39,7 +39,7 @@ export function LoadingScreen() {
             <div className="absolute inset-0 border-2 border-primary/20 rounded-[2rem] animate-ping" />
           </div>
           <h1 className="text-5xl md:text-7xl font-black tracking-tighter gradient-text animate-pulse">
-            EduPulse AI
+            EDU Plus
           </h1>
           <motion.div
             initial={{ width: 0 }}

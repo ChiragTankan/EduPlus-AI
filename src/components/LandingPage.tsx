@@ -26,7 +26,7 @@ export function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
             <div className="w-8 h-8 bg-gradient-to-br from-primary to-blue-600 rounded-lg flex items-center justify-center shadow-lg shadow-primary/20">
               <GraduationCap className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">EduPulse AI</span>
+            <span className="text-xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">EDU Plus</span>
           </div>
           <div className="flex items-center gap-4">
             {!isSignedIn ? (
@@ -78,7 +78,7 @@ export function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
                 transition={{ delay: 0.2 }}
                 className="text-xl text-muted-foreground mb-12 max-w-2xl leading-relaxed"
               >
-                Don't just study—excel. EduPulse AI maps your path to academic mastery 
+                Don't just study—excel. EDU Plus maps your path to academic mastery 
                 with precision-engineered roadmaps and real-time curriculum intelligence.
               </motion.p>
 
@@ -172,7 +172,7 @@ export function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
                   viewport={{ once: true }}
                 >
                   <h2 className="text-5xl font-black tracking-tighter mb-6 leading-tight">
-                    How EduPulse AI <br />
+                    How EDU Plus <br />
                     <span className="text-primary">Transforms</span> Your Learning
                   </h2>
                   <p className="text-xl text-muted-foreground leading-relaxed">
@@ -244,7 +244,7 @@ export function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
 
                     <div className="mt-10 p-6 rounded-2xl bg-primary/5 border border-primary/10">
                       <p className="text-sm font-medium text-primary mb-2 italic">"Your progress in System Design is exceptional. You're ready for the Professional Certification."</p>
-                      <p className="text-xs text-muted-foreground">— EduPulse AI Tutor</p>
+                      <p className="text-xs text-muted-foreground">— EDU Plus Tutor</p>
                     </div>
                   </div>
                 </motion.div>
@@ -261,7 +261,7 @@ export function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
         <section className="py-32 relative">
           <div className="container mx-auto px-6">
             <div className="text-center mb-20">
-              <h2 className="text-4xl font-bold mb-4">Why Choose EduPulse AI</h2>
+              <h2 className="text-4xl font-bold mb-4">Why Choose EDU Plus</h2>
               <p className="text-muted-foreground">The ultimate toolkit for modern students and educators.</p>
             </div>
 
@@ -303,7 +303,7 @@ export function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
                   <div className="w-8 h-8 bg-gradient-to-br from-primary to-blue-600 rounded-lg flex items-center justify-center">
                     <GraduationCap className="w-5 h-5 text-white" />
                   </div>
-                  <span className="text-xl font-bold tracking-tight">EduPulse AI</span>
+                  <span className="text-xl font-bold tracking-tight">EDU Plus</span>
                 </div>
                 <p className="text-muted-foreground max-w-sm leading-relaxed">
                   The world's premier AI-powered learning and academic mastery platform.
@@ -340,7 +340,7 @@ export function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
                 <span>Global Learning Network</span>
               </div>
               <p className="text-xs text-muted-foreground font-medium">
-                © 2026 EduPulse AI. All rights reserved.
+                © 2026 EDU Plus. All rights reserved.
               </p>
             </div>
           </div>

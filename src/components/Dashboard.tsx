@@ -206,7 +206,7 @@ export function Dashboard() {
           {(isSidebarOpen || isMobileMenuOpen || !isSidebarOpen) && (
             <span className={cn("text-2xl font-black tracking-tighter gradient-text animate-gradient flex items-center gap-2")}>
               <GraduationCap className="w-6 h-6 text-primary" /> 
-              {(isSidebarOpen || isMobileMenuOpen) && <span>EduPulse AI</span>}
+              {(isSidebarOpen || isMobileMenuOpen) && <span>EDU Plus</span>}
             </span>
           )}
           <button 

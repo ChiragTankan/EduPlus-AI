@@ -80,7 +80,7 @@ export function Certificate({ userName, moduleTitle, date, onClose }: Certificat
               <div className="w-12 h-12 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl flex items-center justify-center">
                 <GraduationCap className="w-8 h-8 text-[#00d4ff]" />
               </div>
-              <span className="text-3xl font-black tracking-tighter text-white">EduPulse AI</span>
+              <span className="text-3xl font-black tracking-tighter text-white">EDU Plus</span>
             </div>
 
             {/* ================= MAIN CONTENT ================= */}
@@ -133,14 +133,14 @@ export function Certificate({ userName, moduleTitle, date, onClose }: Certificat
                     className="text-[#c7ff4d] text-4xl leading-none mb-2"
                     style={{ fontFamily: "'Brush Script MT', 'Pacifico', cursive" }}
                   >
-                    EduPulse AI
+                    EDU Plus
                   </p>
                   <div className="w-56 h-[1px] bg-[#00d4ff]/40 mb-3 ml-auto" />
                   <p className="text-[#00d4ff] font-black text-lg tracking-tighter">
                     Certification Board
                   </p>
                   <p className="text-white/40 text-xs tracking-widest uppercase font-bold">
-                    EduPulse AI Official
+                    EDU Plus Official
                   </p>
                 </div>
               </div>
