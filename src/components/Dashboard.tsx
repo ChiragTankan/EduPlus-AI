@@ -912,31 +912,6 @@ Objective: Become a SOC Security Analyst or Penetration Tester.`);
                         </div>
                       </div>
 
-                      {/* Textarea Preview & Edit */}
-                      <div className="space-y-2 pt-2">
-                        <div className="flex items-center justify-between">
-                          <label className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5">
-                            <FileText className="w-3.5 h-3.5" /> Resume Text Preview ({resumeInputText.length} chars)
-                          </label>
-                          {resumeInputText && (
-                            <button 
-                              type="button"
-                              onClick={() => { setResumeInputText(''); setUploadedFileName(null); }}
-                              className="text-xs font-bold text-red-500 hover:underline"
-                            >
-                              Clear Text
-                            </button>
-                          )}
-                        </div>
-                        <textarea 
-                          rows={6}
-                          placeholder="Paste or review your resume text here..."
-                          value={resumeInputText}
-                          onChange={(e) => setResumeInputText(e.target.value)}
-                          className="w-full px-5 py-3.5 bg-secondary/50 border border-border rounded-2xl text-xs font-mono leading-relaxed focus:outline-none focus:border-primary transition-colors resize-none custom-scrollbar"
-                        />
-                      </div>
-
                       <div className="flex justify-end pt-2">
                         <button 
                           type="button"
