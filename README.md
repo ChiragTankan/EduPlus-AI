@@ -6,23 +6,29 @@
 
 ## 🚀 Key Features
 
-1. **AI Study Tutor (Interactive Chat)**
+1. **AI Resume & Skill Gap Analyzer**
+   - Assesses user career goals vs. current technical background and resume.
+   - Identifies critical technical, architectural, and soft skill gaps.
+   - Generates a customized 6-month career roadmap with actionable milestones.
+   - Recommends targeted EDU Plus modules to bridge identified gaps.
+
+2. **AI Study Tutor (Interactive Chat)**
    - Powered by Gemini AI.
    - Provides real-time explanations, homework guidance, study strategies, and interactive Q&A.
 
-2. **Personalized Study Roadmaps**
+3. **Personalized Study Roadmaps**
    - Instantly generates custom, step-by-step academic learning modules tailored to any subject or target level (e.g. Computer Science, Quantum Computing, Data Analytics).
 
-3. **Curriculum Insights**
+4. **Curriculum Insights**
    - Live AI analysis highlighting key 2026 academic disciplines, core competencies, and practical hands-on project ideas.
 
-4. **Interactive Study Area & Module Generator**
+5. **Interactive Study Area & Module Generator**
    - Generates multi-part lessons complete with theory, practical exercises, interactive quizzes, and instant grading feedback.
 
-5. **Verified Digital Certificates**
+6. **Verified Digital Certificates**
    - Automated certificate generation upon module completion, complete with verification seals and printable formats.
 
-6. **AI Mock Interview (Under Fine-Tuning)**
+7. **AI Mock Interview (Under Fine-Tuning)**
    - Voice and scenario-based interview simulation module designed to test subject comprehension and interview readiness.
 
 ---
