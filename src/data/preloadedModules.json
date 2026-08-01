@@ -1,0 +1,72 @@
+{
+  "React Hooks Mastery": {
+    "pages": [
+      { "title": "Introduction to Hooks", "content": "Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.\n\n### Why Hooks?\n- **Reusability**: Share stateful logic between components easily.\n- **Complexity**: Avoid the confusion of lifecycle methods like `componentDidMount`.\n- **Simplicity**: Functional components are easier to read and test." },
+      { "title": "useState: Managing State", "content": "The `useState` hook is the most basic hook. It returns a stateful value and a function to update it.\n\n```tsx\nconst [count, setCount] = useState(0);\n```\n\n### Best Practices:\n- Use multiple state variables for different pieces of data.\n- Don't put everything in one big object unless they always change together." },
+      { "title": "useEffect: Side Effects", "content": "The `useEffect` hook lets you perform side effects in function components. It's a combination of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`.\n\n### Dependency Array:\n- `[]`: Runs only once on mount.\n- `[prop]`: Runs on mount and whenever `prop` changes.\n- No array: Runs on every render." },
+      { "title": "useContext: Global State", "content": "Context provides a way to pass data through the component tree without having to pass props down manually at every level.\n\n### Usage:\n1. Create a context: `const MyContext = createContext(defaultValue);`\n2. Provide context: `<MyContext.Provider value={...}>`\n3. Consume context: `const value = useContext(MyContext);`" },
+      { "title": "useReducer: Complex State", "content": "For complex state logic that involves multiple sub-values or when the next state depends on the previous one, `useReducer` is usually preferable to `useState`." },
+      { "title": "useCallback: Memoizing Functions", "content": "Returns a memoized version of the callback that only changes if one of the dependencies has changed. Useful when passing callbacks to optimized child components." },
+      { "title": "useMemo: Memoizing Values", "content": "Returns a memoized value. Pass a 'create' function and an array of dependencies. `useMemo` will only recompute the memoized value when one of the dependencies has changed." },
+      { "title": "useRef: Accessing DOM", "content": "Returns a mutable ref object whose `.current` property is initialized to the passed argument. The returned object will persist for the full lifetime of the component." },
+      { "title": "Custom Hooks", "content": "A custom Hook is a JavaScript function whose name starts with ”use” and that may call other Hooks. It allows you to extract component logic into reusable functions." },
+      { "title": "Rules of Hooks", "content": "1. Only call Hooks at the top level. Don’t call Hooks inside loops, conditions, or nested functions.\n2. Only call Hooks from React function components or custom Hooks." }
+    ]
+  },
+  "Next.js App Router": {
+    "pages": [
+      { "title": "The New Paradigm", "content": "The App Router is a new way to build Next.js applications using React Server Components. It supports shared layouts, nested routing, loading states, and error handling." },
+      { "title": "File-System Routing", "content": "Next.js uses a file-system based router where folders are used to define routes. Each folder represents a route segment that maps to a URL segment." },
+      { "title": "Layouts and Templates", "content": "A layout is UI that is shared between multiple pages. On navigation, layouts preserve state, remain interactive, and do not re-render." },
+      { "title": "Server Components", "content": "By default, Next.js uses Server Components. This allows you to render components on the server and reduce the amount of JavaScript sent to the client." },
+      { "title": "Client Components", "content": "To use interactivity, browser APIs, or state, you must use Client Components by adding the `'use client'` directive at the top of the file." },
+      { "title": "Data Fetching", "content": "Next.js extends the native `fetch` API to allow you to configure caching and revalidation for each fetch request on the server." },
+      { "title": "Streaming and Suspense", "content": "Streaming allows you to break down the page's HTML into smaller chunks and progressively send those chunks from the server to the client." },
+      { "title": "Error Handling", "content": "The `error.js` file convention allows you to gracefully handle unexpected runtime errors in nested routes." },
+      { "title": "Loading UI", "content": "The `loading.js` file convention helps you create meaningful Loading UI with React Suspense." },
+      { "title": "Server Actions", "content": "Server Actions are asynchronous functions that are executed on the server. They can be used in Client and Server Components to handle form submissions and data mutations." }
+    ]
+  },
+  "Advanced TypeScript": {
+    "pages": [
+      { "title": "Beyond the Basics", "content": "Advanced TypeScript involves mastering the type system to create safer and more expressive codebases." },
+      { "title": "Generics", "content": "Generics allow you to create components that work over a variety of types rather than a single one. This allows users to consume these components and use their own types." },
+      { "title": "Conditional Types", "content": "Conditional types help describe the relation between the types of inputs and outputs. `T extends U ? X : Y`" },
+      { "title": "Mapped Types", "content": "Mapped types allow you to create new types based on existing ones by iterating over keys." },
+      { "title": "Template Literal Types", "content": "Template literal types build on string literal types, and have the ability to expand into many strings via unions." },
+      { "title": "Utility Types", "content": "TypeScript provides several utility types to facilitate common type transformations like `Partial`, `Required`, `Readonly`, and `Pick`." },
+      { "title": "Type Guards", "content": "Type guarding is the process of narrowing down the type of an object within a conditional block." },
+      { "title": "Discriminated Unions", "content": "A common pattern in functional programming where you use a literal property to distinguish between different types in a union." },
+      { "title": "Declaration Merging", "content": "Declaration merging is when the compiler merges two separate declarations declared with the same name into a single definition." },
+      { "title": "Advanced Patterns", "content": "Using mixins, decorators, and advanced inference to build robust libraries and applications." }
+    ]
+  },
+  "Tailwind CSS Architecture": {
+    "pages": [
+      { "title": "Utility-First Mindset", "content": "Tailwind CSS is a utility-first CSS framework packed with classes like `flex`, `pt-4`, `text-center` and `rotate-90` that can be composed to build any design, directly in your markup." },
+      { "title": "Configuration", "content": "The `tailwind.config.js` file is where you define your theme, plugins, and any other customizations." },
+      { "title": "Responsive Design", "content": "Using responsive modifiers like `sm:`, `md:`, `lg:`, and `xl:` to build adaptive interfaces." },
+      { "title": "Hover, Focus, and Other States", "content": "Tailwind includes modifiers for almost every pseudo-class, like `hover:`, `focus:`, `active:`, etc." },
+      { "title": "Dark Mode", "content": "Tailwind includes a `dark` variant that lets you style your site differently when dark mode is enabled." },
+      { "title": "Reusing Styles", "content": "Using `@apply` to extract repeated utility patterns into custom CSS classes, or better yet, using component abstractions." },
+      { "title": "Customizing the Theme", "content": "How to extend the default theme with your own colors, spacing, and fonts." },
+      { "title": "Plugins", "content": "Extending Tailwind with custom plugins to add new utilities, components, or base styles." },
+      { "title": "Optimization", "content": "Using PurgeCSS (built-in) to remove unused CSS and keep your production bundles tiny." },
+      { "title": "Best Practices", "content": "Organizing classes, using design tokens, and maintaining a consistent design system." }
+    ]
+  },
+  "Prompt Engineering": {
+    "pages": [
+      { "title": "The Art of the Prompt", "content": "Prompt engineering is the process of structuring text that can be interpreted and understood by a generative AI model." },
+      { "title": "Zero-Shot vs Few-Shot", "content": "Zero-shot is asking the model a question without examples. Few-shot is providing a few examples to guide the model's response." },
+      { "title": "Chain of Thought", "content": "Encouraging the model to 'think step by step' to improve reasoning and accuracy for complex tasks." },
+      { "title": "System Instructions", "content": "Using system-level prompts to define the AI's persona, constraints, and overall behavior." },
+      { "title": "Prompt Templates", "content": "Building reusable structures for common tasks like summarization, translation, or code generation." },
+      { "title": "Handling Hallucinations", "content": "Techniques to reduce false information, such as grounding the model in provided text or using self-consistency checks." },
+      { "title": "Iterative Refinement", "content": "The process of testing and adjusting prompts to achieve the best possible output." },
+      { "title": "RAG (Retrieval-Augmented Generation)", "content": "Combining LLMs with external knowledge bases to provide up-to-date and specific information." },
+      { "title": "Advanced Techniques", "content": "Using delimiters, specifying output formats (JSON/Markdown), and controlling temperature/top-p." },
+      { "title": "Ethical Considerations", "content": "Avoiding bias, ensuring safety, and understanding the limitations of AI models." }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "EduPulse AI",
+  "description": "Empower your academic journey with EduPulse AI – an intelligent learning platform providing personalized study roadmaps, AI tutoring, and curriculum insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
